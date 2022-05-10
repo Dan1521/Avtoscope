@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/reset.min.css">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/swiper.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Главная</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header header--absol">
+  <div class="container header__container">
+    <a class="logo header__logo" href="index.html" aria-label="Логотип">
+      <img src="assets/images/logo.svg" alt="Логотип">
+    </a>
+    <nav class="header__nav header-nav">
+      <ul class="header-nav__list">
+        <li class="header-nav__item">
+          <a class="header-nav__link" href="about-service.html">
+            <span>О сервисе</span>
+            <b class="arrow"></b>
+          </a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__link" href="tariffs.html">
+            <span>Тарифы</span>
+            <b class="arrow"></b>
+          </a>
+        </li>
+        <li class="header-nav__item">
+          <a class="header-nav__link" href="faq.html">
+            <span>FAQ</span>
+            <svg class="icon-box">
+              <use xlink:href="assets/images/sprite/sprite.svg#quetion"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="header-nav__links">
+        <a class="header-nav__links-link link"  data-modal="modal-1">
+          Где я могу <span>найти VIN?</span><b class="arrow"></b>
+        </a>
+        <a class="header-nav__links-link link" href="">
+          Посмотреть <span>пример отчёта</span><b class="arrow"></b>
+        </a>
+      </div>
+      <div class="header-nav__btns">
+        <a class="header-nav__btn" href="#" >
+          <svg class="icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#vk"></use>
+          </svg>
+          <span>ВК-бот</span>
+        </a>
+        <a class="header-nav__btn" href="#">
+          <svg class="icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#telegram"></use>
+          </svg>
+          <span>Телеграм-Бот</span>
+        </a>
+      </div>
+    </nav>
+    <a class="header__link link" data-modal="modal-1">
+      Где я могу <span class="text-accent">найти VIN?</span>
+      <b class="arrow"></b>
+    </a>
+    <button class="btn-reset burger">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+      <main class="main">
+        <section class="hero">
+	<div class="container hero__container">
+		<h1 class="title-1 hero__title"><span class="text-accent">Проверьте авто</span> по VIN и госномеру</h1>
+		<p class="hero__subtitle">ДТП, ремонт, залоги, ограничения, отсутствие тех. обслуживания, использование автомобиля в
+			такси и другие данные <a class="text-accent" href="#">из официальных источников</a>
+		</p>
+		<div class="hero__inner">
+			<form class="hero__form form-hero" action="" method="post">
+				<label class="form-hero__field">
+					<input class="form-hero__input" type="text" placeholder="Введите VIN или госномер">
+					<button class="btn-reset form-hero__btn  btn" type="submit">
+						<span>Проверить авто</span>
+						<svg class="icon">
+							<use xlink:href="assets/images/sprite/sprite.svg#arrow"></use>
+						</svg>
+					</button>
+				</label>
+			</form>
+			<div class="hero__inner-bottom">
+				<a class="hero__link link" href="#">
+					<svg class="icon">
+						<use xlink:href="assets/images/sprite/sprite.svg#receipt"></use>
+					</svg>
+					Посмотреть<span class="text-accent">пример отчёта</span>
+					<b class="arrow"></b>
+				</a>
+				<ul class="hero__social social-hero">
+					<li class="social-hero__item">
+						<a class="social-hero__link social-hero__link--blue" href="#">
+							<svg class="icon">
+								<use xlink:href="assets/images/sprite/sprite.svg#vk"></use>
+							</svg>
+							<span>ВК-бот</span>
+						</a>
+					</li>
+					<li class="social-hero__item">
+						<a class="social-hero__link social-hero__link--dark" href="#">
+							<svg class="icon">
+								<use xlink:href="assets/images/sprite/sprite.svg#telegram"></use>
+							</svg>
+							<span>Телеграм-Бот</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<picture>
+		<source media="(min-width: 2200px)" srcset="assets/images/hero-x2.png">
+		<source media="(max-width: 425px)" srcset="assets/images/hero-mob.png">
+		<img class="hero__img" src="assets/images/hero-x1.png" alt="">
+	</picture>
+</section>
+        <div class="section peculity animate">
+	<div class="container peculity__container">
+		<div class="peculity__items">
+			<div class="peculity__item item-peculity">
+				<div class="item-peculity__progress">
+					<span class="item-peculity__progress-bg"></span>
+					<svg class="item-peculity__progress-bar" viewBox="0 0 150 150">
+						<circle class="item-peculity__progress-circle" cx="75" cy="75" r="65" />
+					</svg>
+					<span class="item-peculity__progress-persent">75</span>
+				</div>
+				<div class="item-peculity__text">Продаваемых подержанных
+					авто <span class="text-accent">учавствовали в ДТП</span></div>
+			</div>
+			<div class="peculity__item item-peculity">
+				<div class="item-peculity__progress">
+					<span class="item-peculity__progress-bg"></span>
+					<svg class="item-peculity__progress-bar" viewBox="0 0 150 150">
+						<circle class="item-peculity__progress-circle" cx="75" cy="75" r="65"/>
+					</svg>
+					<span class="item-peculity__progress-persent">25</span>
+				</div>
+				<div class="item-peculity__text">Имеют<br>
+				<span class="text-accent">скрученный пробег</span></div>
+			</div>
+			<div class="peculity__item item-peculity">
+				<div class="item-peculity__progress">
+					<span class="item-peculity__progress-bg"></span>
+					<svg class="item-peculity__progress-bar" viewBox="0 0 150 150">
+						<circle class="item-peculity__progress-circle" cx="75" cy="75" r="65"/>
+					</svg>
+					<span class="item-peculity__progress-persent">34</span>
+				</div>
+				<div class="item-peculity__text">Имеют<br>
+				 <span class="text-accent">	наложенные ограничения</span></div>
+			</div>
+			<div class="peculity__item item-peculity">
+				<div class="item-peculity__progress">
+					<span class="item-peculity__progress-bg"></span>
+					<svg class="item-peculity__progress-bar" viewBox="0 0 150 150">
+						<circle class="item-peculity__progress-circle" cx="75" cy="75" r="65"/>
+					</svg>
+					<span class="item-peculity__progress-persent">49</span>
+				</div>
+				<div class="item-peculity__text">Использовались<br>
+					<span class="text-accent">для работы в такси</span></div>
+			</div>
+		</div>
+	</div>
+</div>
+        <section class="section info ">
+	<div class="container info__container">
+		<div class="info__content">
+			<div class="info__head section-head">
+				<h2 class="title-2 section-head__title info__title"><span class="text-accent">Автоскоп-бот.</span><br>
+					Больший функционал - меньшая цена.</h2>
+				<p class="section-head__text section-head__text-gray">
+					<span class="text-black">Только в наших ботах</span> доступны комплексные тарифы для проверки
+					группы автомобилей, и безлимитные решения для масштабных проверок.
+				</p>
+			</div>
+			<div class="info__reports reports">
+				<ul class="reports__items">
+					<li class="reports__item animate">
+						<article class="report-card">
+							<div class="report-card__top">
+								<svg class="icon report-card__icon report-card__icon--yellow">
+									<use xlink:href="assets/images/sprite/sprite.svg#files-pckg"></use>
+								</svg>
+								<h5 class="title-5 report-card__title">Пакеты отчётов</h5>
+							</div>
+							<ul class="report-card__list">
+								<li class="report-card__item report-card__item--yellow">
+									<span class="report-card__cel">1 отчёт</span>
+									<span class="report-card__price report-card__price--gray">99₽</span>
+								</li>
+								<li class="report-card__item report-card__item--yellow">
+									<span class="report-card__cel">5 отчёт</span>
+									<span class="report-card__price ">325₽ </span>
+								</li>
+								<li class="report-card__item report-card__item--yellow">
+									<span class="report-card__cel">10 отчёт</span>
+									<span class="report-card__price report-card__price--big">450₽</span>
+								</li>
+							</ul>
+							<a class="report-card__link" href="#">Подробнее о тарифах</a>
+						</article>
+					</li>
+					<li class="reports__item animate">
+						<article class="report-card">
+							<div class="report-card__top">
+								<svg class="icon report-card__icon report-card__icon--green">
+									<use xlink:href="assets/images/sprite/sprite.svg#umlim"></use>
+								</svg>
+								<h5 class="title-5 report-card__title">Пакеты отчётов</h5>
+							</div>
+							<ul class="report-card__list">
+								<li class="report-card__item report-card__item--green">
+									<span class="report-card__cel">1 час</span>
+									<span class="report-card__price report-card__price--black">199₽</span>
+								</li>
+								<li class="report-card__item report-card__item--green">
+									<span class="report-card__cel">24 часа</span>
+									<span class="report-card__price ">699₽</span>
+								</li>
+								<li class="report-card__item report-card__item--green">
+									<span class="report-card__cel">7 дней </span>
+									<span class="report-card__price">1199₽</span>
+								</li>
+								<li class="report-card__item report-card__item--green">
+									<span class="report-card__cel">1 месяц </span>
+									<span class="report-card__price report-card__price--big">2300₽</span>
+								</li>
+							</ul>
+						</article>
+					</li>
+				</ul>
+				<ul class="reports__social">
+					<li class="reports__social-item">
+						<a class="reports__social-link btn" href="#">
+							<svg class="icon">
+								<use xlink:href="assets/images/sprite/sprite.svg#vk-white"></use>
+							</svg>
+							<span>Перейти в ВК-Бот</span>
+						</a>
+					</li>
+					<li class="reports__social-item">
+						<a class="reports__social-link btn" href="#">
+							<svg class="icon">
+								<use xlink:href="assets/images/sprite/sprite.svg#vk-white"></use>
+							</svg>
+							<span>Перейти в ВК-Бот</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="info__picture">
+			<img class="info__picture-1" src="assets/images/phone/01.png" alt="">
+			<img class="info__picture-2" src="assets/images/phone/02.png" alt="">
+		</div>
+	</div>
+</section>
+        <section class="section report">
+  <div class="container report__container">
+    <div class="report__head section-head text-center">
+      <h2 class="title-2 section-head__title">Отчёт содержит</h2>
+      <p class="section-head__text">
+        Помимо <a class="text-accent" href="#">основной информации</a> (технические характеристики,включая марку, модель,<br>
+        год выпуска, и реальные фотографии автомобиля) отчёт состоит из:.
+      </p>
+    </div>
+    <ul class="report__items grid">
+      <li class="report__item item-report animate">
+        <div class="item-report__top">
+          <svg class="icon item-report__icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#car-service"></use>
+          </svg>
+          <div class="category">
+            <svg class="icon category__icon category__icon--green" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12.75" cy="12" r="12" fill="#29C4A8"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0596 9.72332L11.2826 17.3824L7.05957 13.2233L8.39803 11.7766L11.2826 14.6175L17.7211 8.27661L19.0596 9.72332Z" fill="white"/>
+            </svg>
+            <span class="category__text">Данные о ДТП
+              не обнаружены</span>
+          </div>
+        </div>
+        <h3 class="title-3 item-report__title">ДТП<br>И РЕМОНТЫ</h3>
+        <p class="item-report__text">Ремонт, ДТП, в которых учавствовал автомобиль, и полученные повреждения</p>
+      </li>
+      <li class="report__item item-report animate">
+        <div class="item-report__top">
+          <svg class="icon item-report__icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#mainten"></use>
+          </svg>
+          <div class="category">
+            <svg class="icon category__icon category__icon--yellow" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12.75" cy="12" r="12" fill="#EEBF45"/>
+              <path d="M11.75 18V16.1667H13.75V18H11.75ZM11.75 15.25V7H13.75V15.25H11.75Z" fill="white"/>
+            </svg>
+            <span class="category__text">Один из владельцев
+              юридическое лицо</span>
+          </div>
+        </div>
+        <h3 class="title-3 item-report__title">ИСТОРИЯ<br>ВЛАДЕНИЯ</h3>
+        <p class="item-report__text">Количество владельцев автомобиля, тип владельца, периоды эксплуатации и регионы регистрации автомобиля</p>
+      </li>
+      <li class="report__item item-report animate">
+        <div class="item-report__top">
+          <svg class="icon item-report__icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#report-doc"></use>
+          </svg>
+          <div class="category">
+            <svg class="icon category__icon category__icon--red" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12.75" cy="12" r="12" fill="#EE4545"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9641 7.68856C11.5303 7.45403 12.1372 7.33332 12.75 7.33332C13.3628 7.33332 13.9697 7.45403 14.5359 7.68856C15.102 7.92307 15.6164 8.26682 16.0499 8.70016C16.4832 9.1335 16.8269 9.64795 17.0615 10.2141C17.296 10.7803 17.4167 11.3872 17.4167 12C17.4167 12.6128 17.296 13.2197 17.0615 13.7859C16.9124 14.1455 16.7195 14.4842 16.4874 14.7946L9.9554 8.2626C10.2658 8.03054 10.6045 7.83751 10.9641 7.68856ZM9.01259 9.20539C8.41286 10.0074 8.08332 10.9867 8.08332 12C8.08332 13.2377 8.57498 14.4247 9.45016 15.2999C10.3253 16.175 11.5123 16.6667 12.75 16.6667C13.7633 16.6667 14.7426 16.3372 15.5446 15.7374L9.01259 9.20539ZM12.75 6C11.9621 6 11.1819 6.1552 10.4539 6.45672C9.72595 6.75826 9.06451 7.2002 8.50736 7.75736C7.38214 8.88258 6.75 10.4087 6.75 12C6.75 13.5913 7.38214 15.1175 8.50736 16.2426C9.63258 17.3678 11.1587 18 12.75 18C14.3413 18 15.8675 17.3678 16.9926 16.2426C17.5498 15.6854 17.9917 15.024 18.2933 14.2961C18.5948 13.5681 18.75 12.7879 18.75 12C18.75 11.2121 18.5948 10.4319 18.2933 9.7039C17.9917 8.97595 17.5498 8.31451 16.9926 7.75736C16.4354 7.2002 15.774 6.75826 15.0461 6.45672C14.3181 6.1552 13.5379 6 12.75 6Z" fill="white"/>
+              </svg>
+            <span class="category__text">Есть ограничения на регистрацию</span>
+          </div>
+        </div>
+        <h3 class="title-3 item-report__title">ОГРАНИЧЕНИЯ <br>И ЗАЛОГИ</h3>
+        <p class="item-report__text">Сведения о нахождение автомобиля  в розыске, наличие запрета на регистрационные действия, залог или арест</p>
+      </li>
+      <li class="report__item item-report animate">
+        <div class="item-report__top">
+          <svg class="icon item-report__icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#car-service"></use>
+          </svg>
+          <div class="category">
+            <svg class="icon category__icon category__icon--green" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12.75" cy="12" r="12" fill="#29C4A8"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0596 9.72332L11.2826 17.3824L7.05957 13.2233L8.39803 11.7766L11.2826 14.6175L17.7211 8.27661L19.0596 9.72332Z" fill="white"/>
+            </svg>
+            <span class="category__text">Пробег автомобиля
+              соответствует ПТС</span>
+          </div>
+        </div>
+        <h3 class="title-3 item-report__title">ИСТОРИЯ<br>ЭКСПЛУАТАЦИИ</h3>
+        <p class="item-report__text">Данные о ТО с описанием произведенных работ, история пробега автомобиля</p>
+      </li>
+    </ul>
+    <div class="report__bottom">
+      <span class="report__line"></span>
+      <a class="report__link">
+        <p class="report__link-inner">
+          <svg class="icon">
+            <use xlink:href="assets/images/sprite/sprite.svg#receipt"></use>
+          </svg>
+          <span>Посмотреть пример отчёта</span>
+        </p>
+      </a>
+    </div>
+  </div>
+</section>
+        <section class="examin">
+  <div class="container examin__container">
+    <img class="examin__img" src="assets/images/phone/examin.png" alt="">
+    <div class="examin__content">
+      <h3 class="title-3 examin__title">
+        <svg class="icon">
+          <use xlink:href="assets/images/sprite/sprite.svg#magnifier"></use>
+        </svg>
+        Проверьте <span class="text-accent">свой авто!</span>
+      </h3>
+      <p class="examin__text">Воспользуйтесь нашими ботами в Телеграм и Вконтакте для проверки своего автомобиля на ДТП, ремонт, залоги, ограничения, отсутствие тех. обслуживания, и другие данные<a class="text-accent" href="#">из официальных источников</a>
+      </p>
+      <form class="examin__form form-hero" action="" method="post">
+				<label class="form-hero__field">
+					<input class="form-hero__input" type="text" placeholder="Введите VIN или госномер">
+          <button class="btn-reset form-hero__btn  btn" type="submit">
+            <span>Проверить авто</span>
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#arrow"></use>
+            </svg>
+          </button>
+				</label>
+			</form>
+    </div>
+  </div>
+  <picture>
+    <source media="(min-width: 425px)" srcset="assets/images/examin-x1.png">
+    <img class="examin__decor" src="assets/images/hero-mob.png" alt="">
+  </picture>
+</section>
+      </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__col">
+      <a class="footer__logo" href="#">
+        <svg>
+          <use xlink:href="assets/images/sprite/sprite.svg#footer-logo"></use>
+        </svg>
+      </a>
+      <p class="footer__copy">2021. Все права защищены</p>
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#telegram-white"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#vk-footer"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#ok"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#twitter-with"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#">
+            <svg class="icon">
+              <use xlink:href="assets/images/sprite/sprite.svg#yandex-zen"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a href="about-service.html" class="footer__nav-link">О сервисе</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="tariffs.html" class="footer__nav-link">Тарифы</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="contacts.html" class="footer__nav-link">Контакты</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="faq.html" class="footer__nav-link">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__links">
+        <a class="footer__link" href="#">Политика конфиденциальности</a>
+        <a class="footer__link" href="#">Пользовательское соглашение</a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <a class="footer__btn" href="#">
+        <svg class="footer__btn-icon">
+          <use xlink:href="assets/images/sprite/sprite.svg#call"></use>
+        </svg>
+        <p class="footer__btn-text">
+          <span>Служба поддержки клиентов</span>
+          <span>support@автсокоп.рф</span>
+        </p>
+      </a>
+      <ul class="footer__partners">
+        <li class="footer__partners-item">
+          <img src="assets/images/visa-logo.svg" alt="visa">
+        </li>
+        <li class="footer__partners-item">
+          <img src="assets/images/master-card.svg" alt="visa">
+        </li>
+        <li class="footer__partners-item">
+          <img src="assets/images/mir-logo.svg" alt="visa">
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <div class="modal" id="modal-1">
+  <div class="modal__container">
+    <div class="modal__inner">
+      <div class="modal__top">
+        <div class="modal__title">Где Вы можете найти VIN-номер</div>
+        <button class="btn-reset modal__close" data-modal-close="modal-1">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 1.4L14.6 0L8 6.6L1.4 0L0 1.4L6.6 8L0 14.6L1.4 16L8 9.4L14.6 16L16 14.6L9.4 8L16 1.4Z"
+              fill="#2285E0" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__img" src="assets/images/car.svg" alt="">
+        <div class="modal__items">
+          <div class="modal__item item-modal">
+            <ul class="item-modal__list">
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#29C4A8" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>На стойке у передней двери</span>
+              </li>
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#29C4A8" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>На панели под лобовым стеклом</span>
+              </li>
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#29C4A8" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>Под капотом</span>
+              </li>
+            </ul>
+          </div>
+          <div class="modal__item item-modal">
+            <div class="item-modal__title">Так же, его можно найти в документах на ТС</div>
+            <ul class="item-modal__list">
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#2285E0" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>В паспорте ТС</span>
+              </li>
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#2285E0" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>В свидетельстве о регистрации</span>
+              </li>
+              <li class="item-modal__item">
+                <svg class="item-modal__item-icon" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="8.16602" cy="8" r="7.5" fill="#2285E0" stroke="white" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.373 6.4801L7.18843 11.5862L4.37305 8.81343L5.26535 7.84896L7.18843 9.7429L11.4807 5.51562L12.373 6.4801Z"
+                    fill="white" />
+                </svg>
+                <span>В полисе ОСАГО</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/inputmask.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
