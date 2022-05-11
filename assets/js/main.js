@@ -12,11 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	const accordionControls = document.querySelectorAll('.accordion__controls');
 	const form = document.querySelector('.form-contacts')
 	const telSelector = document.querySelector('.form-contacts__input-tel')
-	const preloader = document.querySelector('.preloader')
+	const preloader = document.querySelector('.preloader');
+
+	if (preloader) {
+		setTimeout(() => {
+			preloader.classList.add('hide');
+		}, 1000);
+	}
 	
-	setTimeout(() => {
-		preloader.classList.add('hide');
-	}, 1000);
 	burger.addEventListener('click', () => {
 		if (!menu.classList.contains('active')) {
 			burger.classList.add('active');
